@@ -2,10 +2,10 @@ from django.contrib import admin
 from django.urls import path
 from . import views
 
-app_name="perfil"
+app_name="publicacion"
 
 urlpatterns = [
 
-	path('Perfil/', views.Perfil, name = 'perfil'),
+	path('Publicacion/', views.Publicacion, name = 'publicacion'),
 
 ]
